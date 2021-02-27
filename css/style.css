@@ -96,10 +96,20 @@ html, body{
 .welcome{
     border-radius: 5px;
     text-align:center;
-    height: 10rem;
+    height: 14rem;
     width:100%;
     background-color: #fff;
     opacity:.8;
+}
+.welcome a{
+    text-decoration:none;
+    background-color: #0074D9;
+    color:#fff;
+    padding: 10px;
+}
+.welcome a:active, .welcome a:hover{
+    background-color: #000;
+    transition: .3;
 }
 
 .title{
@@ -278,7 +288,6 @@ ceo-info h3{
 
 /*RODAPÉ*/
 .footer{
-   
     height: 40px;
     padding: 10px;
     margin-top: 30px;
@@ -459,3 +468,5 @@ ceo-info h3{
     }
 
 }
+
+

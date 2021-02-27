@@ -1,0 +1,193 @@
+/*ESTILOS PARA A PÁGINA LOJA*/
+body{
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+ .container p{
+    line-height: 2rem;
+}
+h4{
+    color:#0074D9;
+}
+
+/*ESTILIZANDO MAIN BANNER*/
+.loja-info{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 10px;
+}
+
+.loja-info img{
+    width: 200px;
+    height: 200px;
+}
+
+/*ESTILIZANDO MARCAS DA LOJA*/
+.loja-marcas h2{
+    text-align: center;
+}
+.loja-spacer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.marca-box{
+    width: 250px;
+    text-align: center;
+    border:1px solid  #0074D9;
+    margin-bottom: 20px;
+    padding:10px;
+}
+.marca-box img{
+    width: 200px;
+    height: auto;
+   
+}
+
+
+/* ESTILIZANDO PRODUTOS */
+.loja-produtos{
+    padding: 10px;
+}
+.loja-produtos h2{
+    text-align:center;
+}
+
+.produtos-spacer{
+    display:flex;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: center;
+}
+.produtos-box{
+
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.produtos-box img{
+    width:200px;
+}
+
+
+/*ESTILIZANDO CATÁLOGOS*/
+
+.catalogos{
+    margin-top: -10px;
+    text-align: center;
+    padding:10px;
+   
+}
+
+.cat-spacer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.cat-box{
+    margin-bottom:20px;
+}
+
+.cat-box a{
+    color:#0074D9;
+   
+}
+
+.cat-box img{ width:250px; height: 250px; border: 1px solid #ccc;}
+
+.footer{
+    height: auto;
+    color: #fff;
+    text-align: center;
+}
+.footer a{
+    color:#fff;
+}
+
+
+@media only screen and (min-width: 640px){
+    .marca-box:first-child{
+        margin-right: 10px;
+      
+    }
+
+
+    .produtos-box{
+     width:270px;
+     margin-left:10px;
+    }
+
+    .cat-info{
+        width:500px;
+        margin: 0 auto;
+    }
+    .cat-box{
+        padding: 10px;
+    }
+  
+
+
+    .contacts-spacer{
+
+    }
+    .media{
+    flex-wrap:wrap;
+    }
+
+    .media .box{
+        width: 120px;
+        padding:0;
+    }
+
+    .media .fa{
+     display: block;
+     width:100%;
+     font-size: 1rem;
+
+     
+    }
+    
+
+}
+
+@media only screen and (min-width:760px){
+   .cat-info{
+       width:640px
+   }
+   
+    .cat-box{
+        width:320px
+    }
+    .cat-box img{
+       width:300px;
+       height: 300px;
+    }
+}
+
+@media only screen and (min-width:980px){
+    .marca-box:nth-child(2){
+        margin-right:10px;
+    }
+
+    .cat-info{
+        width:740px
+    }
+    
+     .cat-box{
+         width:420px
+     }
+     .cat-box img{
+        width:400px;
+        height: 350px;
+     }
+
+}
